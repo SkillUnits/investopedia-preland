@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "SourceSansPro","Source Sans Pro-fallback",sans-serif;
+    font-family: "Source Sans 3","Source Sans Pro-fallback",sans-serif;
     font-size: 1.125rem;
     letter-spacing: .05px;
     line-height: 1.5;
@@ -20,7 +20,7 @@ ul {
 }
 h1 {
     margin: 0 0 1rem;
-    font-family: "Cabin-semi-bold","Cabin-fallback",sans-serif;
+    font-family: "Cabin",sans-serif;
     font-size: 2.125rem;
     font-weight: 400;
     line-height: 1.1;
@@ -98,7 +98,7 @@ header {
     border-bottom: 1px solid transparent;
 }
 .header-nav a {
-    font-family: "Cabin-semi-bold","Cabin-fallback",sans-serif;
+    font-family: "Cabin","Cabin-fallback",sans-serif;
     font-size: 0.9375rem;
     letter-spacing: 1px;
     line-height: 20px;
@@ -109,7 +109,7 @@ header {
 .header-nav-button {
     padding: 6px 10px;
     border-radius: 3px;
-    font-family: "Cabin-semi-bold","Cabin-fallback",sans-serif;
+    font-family: "Cabin","Cabin-fallback",sans-serif;
     font-size: 0.9375rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -184,7 +184,7 @@ article {
 }
 .toc-heading {
     display: block;
-    font-family: "Cabin-semi-bold","Cabin-fallback",sans-serif;
+    font-family: "Cabin","Cabin-fallback",sans-serif;
     font-size: 1.375rem;
 }
 .toc-list {
@@ -230,7 +230,7 @@ article {
 .breadcrumbs {
     margin: 2rem 0 .5rem;
     padding-left: 0;
-    font-family: "Cabin-semi-bold","Cabin-fallback",sans-serif;
+    font-family: "Cabin","Cabin-fallback",sans-serif;
     font-size: 0.875rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -299,7 +299,7 @@ h1::after {
     text-decoration: none;
     color: #111;   
     margin-left: .25rem;
-    font-family: "Cabin-semi-bold","Cabin-fallback",sans-serif;
+    font-family: "Cabin","Cabin-fallback",sans-serif;
 }
 .item-date {
     display: inline;
@@ -335,7 +335,7 @@ h1::after {
 }
 .section-block-heading {
     margin-bottom: .5rem;
-    font-family: "Cabin-semi-bold","Cabin-fallback",sans-serif;
+    font-family: "Cabin","Cabin-fallback",sans-serif;
     font-size: 1.625rem;
     font-weight: 800;
     line-height: 1.2;
