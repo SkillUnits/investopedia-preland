@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investopedia</title>
+    <link rel="icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- <script src="script/toc.js"></script> -->
+</head>
+<body>
+    <header>
+        <div class="header-menu">
+            <div class="header-menu-button-container">
+                <div class="header-menu-button">
+                    <svg class="icon">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu" href="#icon-menu">
+                            <symbol id="icon-menu">
+                                <svg viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#444" d="M0 0H22V2.5H0zM0 7.75H22V10.25H0zM0 15.5H22V18H0z"></path>
+                                </svg> 
+                            </symbol>
+                        </use>
+                    </svg>
+                </div>
+            </div>
+            <div class="header-logo-wrapper">
+                <a class="comp" rel="home" href="/">
+                    <svg class="icon">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inv-logo-header" href="#inv-logo-header">
+                            <symbol id="inv-logo-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574.04 89.64">
+                                    <path fill="#323a56" d="M33.6 24.8l6.33 4-2.42 22.87L71.57 30.9a36 36 0 1 0-70.5 13.77z"></path>
+                                    <path fill="#323a56" d="M34.64 63.21l-6.33-4 2.42-22.86L4.09 52.61a36 36 0 0 0 67.53-12z"></path>
+                                    <circle fill="#f64e00" cx="37.81" cy="16.42" r="5.09"></circle>
+                                    <path fill="#201d1e" d="M89.9 69l8.94-.13V5.69l-8.94.13V69zM132.66 25.1c-4 0-10.81 1.78-13.83 6.61V26h-8.44v43h8.44V45.73c0-8.48 6.4-12.28 12.74-12.28 6 0 10 4.5 10 11.19V69H150V44.19c0-6.11-1.68-11.11-5-14.45-3-3.04-7.27-4.64-12.34-4.64zM175.38 57.94l-12.91-31.93h-9.03L171.3 69h8.08l17.95-42.99h-9.12l-12.83 31.93zM332.89 25.1c-13 0-22.45 9.36-22.45 22.27s9.66 22.54 22.45 22.54a22 22 0 0 0 22.55-22.54c0-12.91-9.44-22.27-22.55-22.27zm0 36.83C325 61.93 319 55.67 319 47.37c0-8.15 6-14.29 13.92-14.29A13.89 13.89 0 0 1 347 47.37c0 8.3-6.07 14.56-14.11 14.56zM384.58 25.1c-6.23 0-11.93 2.71-14.83 7V26h-8.44v63.64h8.44V63c2.88 4.33 8.37 6.88 14.92 6.88 12.43 0 21.45-9.4 21.45-22.36s-9.06-22.42-21.54-22.42zm-.73 36.83a14.06 14.06 0 0 1-14.1-14.29c0-8.3 6.06-14.56 14.1-14.56 7.71 0 13.74 6.4 13.74 14.56s-5.91 14.29-13.74 14.29zM494.15 32c-2.88-4.33-8.37-6.88-14.92-6.88-12.43 0-21.45 9.4-21.45 22.36s9.06 22.45 21.54 22.45c6.23 0 11.93-2.71 14.83-7V69h8.44V2.82h-8.44zM480 61.93c-7.66 0-13.65-6.4-13.65-14.56s5.83-14.29 13.65-14.29a14.1 14.1 0 0 1 14.19 14.29c-.04 7.06-5.01 14.56-14.19 14.56zM513.27 26.01h8.44V69h-8.44zM573.33 26h-8.44v5c-3-3.74-8.17-5.92-14.21-5.92H550c-12.43 0-21.45 9.4-21.45 22.36s9.06 22.45 21.54 22.45h.71c5.75 0 11.06-2.32 14.12-6V69H574V26zm-22.27 35.9c-7.49-.2-13.3-6.5-13.3-14.54s5.7-14.09 13.3-14.27a14.08 14.08 0 0 1 13.83 14.27c0 6.97-4.89 14.35-13.83 14.55zM262.32 42.72c-4.41-1.13-7.53-2.14-7.53-4.89 0-3.09 3.12-5.25 7.6-5.25a14.82 14.82 0 0 1 8.93 3.22l.21.16 4.53-6.28-.2-.16a21.88 21.88 0 0 0-14-4.61c-7.61 0-15.8 4.19-15.8 13.37 0 6.4 5.34 9.52 9.81 11 1.5.5 3 .89 4.52 1.27 4.67 1.2 8.71 2.24 8.71 5.88 0 2.55-2.57 5.25-7.33 5.25a20.55 20.55 0 0 1-12.36-4.57l-.22-.16-4.52 6.46.19.15a26.74 26.74 0 0 0 17.1 5.79c7.7 0 15.89-4.59 15.89-13.1S270 44.69 262.32 42.72zM452.29 46.77C452.29 33.94 444 25 432 25c-12.13 0-20.93 9.17-20.93 21.79a22.64 22.64 0 0 0 6.41 16.4 20 20 0 0 0 14.13 5.67h.4c7.43-.13 12.28-1.36 18.17-7.72l.18-.19-5.85-5.57-.18.2A15.42 15.42 0 0 1 432.3 61c-6.52 0-11.66-4.78-12.87-11.93L452 49h.24v-.24a7.17 7.17 0 0 0 0-1.17c.06-.16.05-.38.05-.82zm-31.57-4.34c1.11-6.21 5.18-9.63 11.49-9.63 6.11 0 10.27 3.59 11.19 9.63zM240 46.77C240 33.94 231.65 25 219.73 25c-12.13 0-20.93 9.17-20.93 21.79a22.64 22.64 0 0 0 6.41 16.4 20 20 0 0 0 14.13 5.67h.39c7.44-.13 12.29-1.36 18.18-7.72l.18-.19-5.85-5.57-.18.2A15.42 15.42 0 0 1 220 61c-6.53 0-11.66-4.78-12.87-11.93l32.56-.07h.25v-.24a8.65 8.65 0 0 0 0-1.17c.06-.16.06-.38.06-.82zm-31.6-4.34c1.12-6.21 5.19-9.63 11.5-9.63 6.11 0 10.27 3.59 11.19 9.63zM305.5 60.07a12.75 12.75 0 0 1-3.56.43 7 7 0 0 1-5.23-2c-.92-1.08-1.11-2.74-1.11-4.89V33.35h12V26h-12V12.08h-8.45V26h-4.64v7.35h4.64v19.82c0 4.77 1.06 8.28 3.24 10.72a14.46 14.46 0 0 0 11.31 4.74 21.82 21.82 0 0 0 6.27-.86l.25-.08-2.47-7.69zM517.49 5.41a5.39 5.39 0 0 0-5.4 5.49 5.32 5.32 0 0 0 5.4 5.4 5.39 5.39 0 0 0 5.51-5.4 5.47 5.47 0 0 0-5.51-5.49z"></path>
+                                </svg> 
+                            </symbol>
+                        </use>
+                    </svg>
+                </a> 
+            </div>
+            <nav class="header-nav">
+                <div class="header-nav-list-wrapper">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-list-item">
+                            <a href="/">INVESTING</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="/">SIMULATOR</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="/">BANKING</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="/">PERSONAL FINANCE</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="/">ECONOMY</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="/">NEWS</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="/">REVIEWS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a class="header-nav-button" href="/">Trade</a>
+            <div class="utility-nav">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search" href="#icon-search">
+                        <symbol id="icon-search">
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.2939 12.5786H13.3905L13.0703 12.2699C14.191 10.9663 14.8656 9.27387 14.8656 7.43282C14.8656 3.32762 11.538 0 7.43282 0C3.32762 0 0 3.32762 0 7.43282C0 11.538 3.32762 14.8656 7.43282 14.8656C9.27387 14.8656 10.9663 14.191 12.2699 13.0703L12.5786 13.3905V14.2939L18.2962 20L20 18.2962L14.2939 12.5786ZM7.43288 12.5786C4.58554 12.5786 2.28708 10.2802 2.28708 7.43282C2.28708 4.58548 4.58554 2.28702 7.43288 2.28702C10.2802 2.28702 12.5787 4.58548 12.5787 7.43282C12.5787 10.2802 10.2802 12.5786 7.43288 12.5786Z" fill="#444"></path>
+                            </svg> 
+                        </symbol>
+                    </use>
+                </svg>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <div class="article-left-side">
+                <div class="sticky-toc-wrapper">
+                    <div class="sticky-toc">
+                        <div class="toc-heading">
+                            Table of Contents
+                        </div>
+                        <ul id="toc" class="toc-list">
+                            <li class="toc-list-item">
+                                <div class="toc-list-item-heading">
+                                    <a href="#toc-does-it-make-sense-to-get-debt-relief-before-retiring" class="toc-list-item-link">
+                                        Does It Make Sence to Get Debt Relief Before Retiring?
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="toc-list-item">
+                                <div class="toc-list-item-heading">
+                                    <a href="#toc-common-debt-relief-options" class="toc-list-item-link">
+                                        Common Debt Relief Options
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="toc-list-item">
+                                <div class="toc-list-item-heading">
+                                    <a href="#toc-consequences-of-debt-relief" class="toc-list-item-link">
+                                        Consequences of Debt Relief
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="article-center">
+                <div class="article-pre-content">
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumbs-item">
+                            <a class="breadcrumbs-link" href="/">Personal Finance</a>
+                        </li>
+                        <li class="breadcrumbs-item">
+                            <a class="breadcrumbs-link" href="/">Retirement Planning</a>
+                        </li>
+                    </ul>
+                    <div class="article-header">
+                        <h1 class="article-heading">
+                            Retiring Soon, But Have Debt? 3 Options to Consider First
+                        </h1>
+                        <div class="article-meta">
+                            <div class="bylines-group">
+                                <div class="bylines-item">
+                                    <span class="item-descriptor">By</span>
+                                    <div class="item-name">Jessica Ullrich</div>
+                                    <div class="item-date">Updated January 21, 2025</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="article-primary-image">
+                        <div style="padding-bottom: 66.6%;" class="img-placeholder">
+                            <img class="primary-image" src="https://www.investopedia.com/thmb/-OfthIod_WuUABoeuz4wMDQTw2w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Seniorcouplecalculatingbudgetretirement-74702043ff804d5787848e6e972893be.jpg" alt="">
+                        </div>
+                    </figure>
+                </div>
+                <div class="article-content">
+                    <p class="section-block">
+                        If you’re approaching retirement and worried about debt, you’re not alone: According to Allianz Life’s 2024 Annual Retirement Study, 40% of Americans are worried about their debt impacting their future quality of life.  Like many people, you might wonder if it makes sense to seek debt relief before retirement. 
+                    </p>
+                    <p class="section-block">
+                        On one hand, being unburdened by debt can be freeing. But on the other, some debt relief options can harm your credit and affect your ability to qualify for future financing. A free counseling session with a credit counseling service is an excellent first step to give you a thorough understanding of your financial situation and your options. 
+                    </p>
+
+                    <span id="toc-does-it-make-sense-to-get-debt-relief-before-retiring"></span>
+                    <h2 class="section-block-heading">Does It Make Sense to Get Debt Relief Before Retiring? </h2>
+                    <p class="section-block">
+                        Entering retirement without debt is ideal, but it may not be possible for many people. Whether you should pursue debt relief (and the type of debt relief to pursue) depends on your situation and the type of debt you have.  
+                    </p>
+                    <p class="section-block">
+                        In general, it makes sense to prioritize paying off high-interest debt like credit card balances before retirement. This type of debt can grow quickly due to hefty interest charges, making it harder to manage. Ever-increasing balances can erode your retirement savings and lessen your quality of life. So, if you have significant credit card debt or other high-interest debt, it’s worth looking into debt relief—especially because you can get help and learn about options completely for free. 
+                    </p>
+
+                    <span id="toc-common-debt-relief-options"></span>
+                    <h2 class="section-block-heading">Common Debt Relief Options</h2>
+                    <p class="section-block">
+                        Common debt relief options include credit counseling, debt settlement, and bankruptcy. Bankruptcy is usually reserved for those in dire financial circumstances, although it may be preferable to debt settlement, which has high fees. Here’s how each type of debt relief works:  
+                    </p>
+                    <ul class="section-block-list">
+                        <li>
+                            <strong>Credit counseling</strong>: Credit counseling agencies are usually nonprofits that provide help managing and repaying your debt. They offer free consultations and other free services, along with debt management plans, which can help you pay off your debt at a lower interest rate. This option is relatively good for your credit, but you’ll have to pay off your full debt.
+                        </li>
+                        <li>
+                            <strong>Debt settlement</strong>: Debt settlement occurs when a creditor forgives all or a portion of your debt, sometimes in return for a lump sum or payment plan. You can seek debt settlement on your own or by hiring a company; debt settlement companies negotiate with creditors on your behalf and charge high fees if they’re able to help reduce your debt. This option is relatively bad for your credit, but you won’t have to pay the full debt.
+                        </li>
+                        <li>
+                            <strong>Bankruptcy</strong>: Bankruptcy involves working with the legal system to discharge your debt or liquidate your assets to repay it. This option is also relatively bad for your credit, but you won’t have to pay the full debt.
+                        </li>
+                    </ul>
+
+                    <span id="toc-consequences-of-debt-relief"></span>
+                    <h2 class="section-block-heading">Consequences of Debt Relief </h2>
+                    <p class="section-block">
+                        While all the options above could help lift your debt burden, each has positive and negative aspects. 
+                    </p>
+                    <p class="section-block">
+                        That said, working with a credit counselor generally has fewer consequences compared to debt settlement or bankruptcy, although it will require you to pay back the full debt over time. Here’s a look at the potential consequences of each option: 
+                    </p>
+                </div>
+            </div>
+            <div class="article-right-side"></div>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <a class="footer-logo" rel="home" href="/" aria-label="Investopedia Homepage">
+                        <svg class="icon">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inv-logo-inverted" href="#inv-logo-inverted">
+                                <symbol id="inv-logo-inverted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574.04 89.64">
+                                        <path fill="#c5dcff" d="M33.6 24.8l6.33 4-2.42 22.87L71.57 30.9a36 36 0 1 0-70.5 13.77z"></path>
+                                        <path fill="#c5dcff" d="M34.64 63.21l-6.33-4 2.42-22.86L4.09 52.61a36 36 0 0 0 67.53-12z"></path>
+                                        <circle fill="#323a56" cx="37.81" cy="16.42" r="5.09"></circle>
+                                        <path fill="#fff" d="M89.9 69l8.94-.13V5.69l-8.94.13V69zM132.66 25.1c-4 0-10.81 1.78-13.83 6.61V26h-8.44v43h8.44V45.73c0-8.48 6.4-12.28 12.74-12.28 6 0 10 4.5 10 11.19V69H150V44.19c0-6.11-1.68-11.11-5-14.45-3-3.04-7.27-4.64-12.34-4.64zM175.38 57.94l-12.91-31.93h-9.03L171.3 69h8.08l17.95-42.99h-9.12l-12.83 31.93zM332.89 25.1c-13 0-22.45 9.36-22.45 22.27s9.66 22.54 22.45 22.54a22 22 0 0 0 22.55-22.54c0-12.91-9.44-22.27-22.55-22.27zm0 36.83C325 61.93 319 55.67 319 47.37c0-8.15 6-14.29 13.92-14.29A13.89 13.89 0 0 1 347 47.37c0 8.3-6.07 14.56-14.11 14.56zM384.58 25.1c-6.23 0-11.93 2.71-14.83 7V26h-8.44v63.64h8.44V63c2.88 4.33 8.37 6.88 14.92 6.88 12.43 0 21.45-9.4 21.45-22.36s-9.06-22.42-21.54-22.42zm-.73 36.83a14.06 14.06 0 0 1-14.1-14.29c0-8.3 6.06-14.56 14.1-14.56 7.71 0 13.74 6.4 13.74 14.56s-5.91 14.29-13.74 14.29zM494.15 32c-2.88-4.33-8.37-6.88-14.92-6.88-12.43 0-21.45 9.4-21.45 22.36s9.06 22.45 21.54 22.45c6.23 0 11.93-2.71 14.83-7V69h8.44V2.82h-8.44zM480 61.93c-7.66 0-13.65-6.4-13.65-14.56s5.83-14.29 13.65-14.29a14.1 14.1 0 0 1 14.19 14.29c-.04 7.06-5.01 14.56-14.19 14.56zM513.27 26.01h8.44V69h-8.44zM573.33 26h-8.44v5c-3-3.74-8.17-5.92-14.21-5.92H550c-12.43 0-21.45 9.4-21.45 22.36s9.06 22.45 21.54 22.45h.71c5.75 0 11.06-2.32 14.12-6V69H574V26zm-22.27 35.9c-7.49-.2-13.3-6.5-13.3-14.54s5.7-14.09 13.3-14.27a14.08 14.08 0 0 1 13.83 14.27c0 6.97-4.89 14.35-13.83 14.55zM262.32 42.72c-4.41-1.13-7.53-2.14-7.53-4.89 0-3.09 3.12-5.25 7.6-5.25a14.82 14.82 0 0 1 8.93 3.22l.21.16 4.53-6.28-.2-.16a21.88 21.88 0 0 0-14-4.61c-7.61 0-15.8 4.19-15.8 13.37 0 6.4 5.34 9.52 9.81 11 1.5.5 3 .89 4.52 1.27 4.67 1.2 8.71 2.24 8.71 5.88 0 2.55-2.57 5.25-7.33 5.25a20.55 20.55 0 0 1-12.36-4.57l-.22-.16-4.52 6.46.19.15a26.74 26.74 0 0 0 17.1 5.79c7.7 0 15.89-4.59 15.89-13.1S270 44.69 262.32 42.72zM452.29 46.77C452.29 33.94 444 25 432 25c-12.13 0-20.93 9.17-20.93 21.79a22.64 22.64 0 0 0 6.41 16.4 20 20 0 0 0 14.13 5.67h.4c7.43-.13 12.28-1.36 18.17-7.72l.18-.19-5.85-5.57-.18.2A15.42 15.42 0 0 1 432.3 61c-6.52 0-11.66-4.78-12.87-11.93L452 49h.24v-.24a7.17 7.17 0 0 0 0-1.17c.06-.16.05-.38.05-.82zm-31.57-4.34c1.11-6.21 5.18-9.63 11.49-9.63 6.11 0 10.27 3.59 11.19 9.63zM240 46.77C240 33.94 231.65 25 219.73 25c-12.13 0-20.93 9.17-20.93 21.79a22.64 22.64 0 0 0 6.41 16.4 20 20 0 0 0 14.13 5.67h.39c7.44-.13 12.29-1.36 18.18-7.72l.18-.19-5.85-5.57-.18.2A15.42 15.42 0 0 1 220 61c-6.53 0-11.66-4.78-12.87-11.93l32.56-.07h.25v-.24a8.65 8.65 0 0 0 0-1.17c.06-.16.06-.38.06-.82zm-31.6-4.34c1.12-6.21 5.19-9.63 11.5-9.63 6.11 0 10.27 3.59 11.19 9.63zM305.5 60.07a12.75 12.75 0 0 1-3.56.43 7 7 0 0 1-5.23-2c-.92-1.08-1.11-2.74-1.11-4.89V33.35h12V26h-12V12.08h-8.45V26h-4.64v7.35h4.64v19.82c0 4.77 1.06 8.28 3.24 10.72a14.46 14.46 0 0 0 11.31 4.74 21.82 21.82 0 0 0 6.27-.86l.25-.08-2.47-7.69zM517.49 5.41a5.39 5.39 0 0 0-5.4 5.49 5.32 5.32 0 0 0 5.4 5.4 5.39 5.39 0 0 0 5.51-5.4 5.47 5.47 0 0 0-5.51-5.49z"></path>
+                                    </svg> 
+                                </symbol>
+                            </use>
+                        </svg>
+                    </a>
+                    <div class="footer-socials">
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a href="/" target="_blank" rel="noopener nocaes" aria-label="Visit Investopedia's Facebook"> 
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook" href="#icon-facebook">
+                                            <symbol id="icon-facebook">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 215.6">
+                                                    <path d="M72.7,215.6v-98.4h33l4.9-38.3h-38V54.5c0-11.1,3.1-18.7,19-18.7l20.3,0V1.5C108.5,1,96.4,0,82.4,0C53.1,0,33.1,17.9,33.1,50.7v28.3H0v38.3h33.1v98.4H72.7z"></path>
+                                                </svg> 
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                </a> 
+                            </li>
+                            <li class="social-list-item">
+                                <a href="/" target="_blank" rel="noopener nocaes" aria-label="Visit Investopedia's Instagram"> 
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram" href="#icon-instagram">
+                                            <symbol id="icon-instagram">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.72 105.72">
+                                                    <path d="M52.86 9.52c14.11 0 15.78.06 21.36.31A29.44 29.44 0 0 1 84 11.65a16.39 16.39 0 0 1 6.08 4 16.29 16.29 0 0 1 4 6.07 29.06 29.06 0 0 1 1.82 9.82c.26 5.57.31 7.24.31 21.36s0 15.78-.31 21.36A28.93 28.93 0 0 1 94.06 84a17.45 17.45 0 0 1-10 10 28.93 28.93 0 0 1-9.81 1.82c-5.58.26-7.25.31-21.36.31s-15.79 0-21.36-.31A29.06 29.06 0 0 1 21.71 94a16.29 16.29 0 0 1-6.07-4 16.39 16.39 0 0 1-4-6.08 29.44 29.44 0 0 1-1.82-9.81c-.25-5.58-.31-7.25-.31-21.36s.06-15.79.31-21.36a29.58 29.58 0 0 1 1.82-9.82 16.43 16.43 0 0 1 4-6.07 16.43 16.43 0 0 1 6.07-4 29.58 29.58 0 0 1 9.79-1.67c5.57-.25 7.24-.31 21.36-.31m0-9.52C38.5 0 36.7.06 31.06.32a38.89 38.89 0 0 0-12.83 2.45 26.08 26.08 0 0 0-9.36 6.1 26.08 26.08 0 0 0-6.1 9.36A38.89 38.89 0 0 0 .32 31.06C.06 36.7 0 38.5 0 52.86S.06 69 .32 74.65a38.78 38.78 0 0 0 2.45 12.83 25.91 25.91 0 0 0 6.1 9.36 25.94 25.94 0 0 0 9.36 6.1 38.86 38.86 0 0 0 12.83 2.46c5.64.26 7.44.32 21.8.32s16.15-.06 21.79-.32a38.75 38.75 0 0 0 12.83-2.46 27.07 27.07 0 0 0 15.46-15.46 38.75 38.75 0 0 0 2.46-12.83c.26-5.64.32-7.44.32-21.79s-.06-16.16-.32-21.8a38.86 38.86 0 0 0-2.46-12.83 25.94 25.94 0 0 0-6.1-9.36 25.91 25.91 0 0 0-9.36-6.1A38.78 38.78 0 0 0 74.65.32C69 .06 67.21 0 52.86 0z"></path>
+                                                    <path d="M52.86 25.71A27.15 27.15 0 1 0 80 52.86a27.16 27.16 0 0 0-27.14-27.15zm0 44.77a17.62 17.62 0 1 1 17.62-17.62 17.62 17.62 0 0 1-17.62 17.62z"></path>
+                                                    <circle cx="81.07" cy="24.64" r="6.34"></circle>
+                                                </svg> 
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                </a> 
+                            </li>
+                            <li class="social-list-item">
+                                <a href="/" target="_blank" rel="noopener nocaes" aria-label="Visit Investopedia's LinkedIn"> 
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-linkedin" href="#icon-linkedin">
+                                            <symbol id="icon-linkedin">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.88 12.86">
+                                                    <path d="M4.77 7.84H7.44v8.59H4.77V7.84ZM6.11 3.57A1.55 1.55 0 1 1 4.56 5.12 1.55 1.55 0 0 1 6.11 3.57M9.12 7.84h2.56V9h0a2.8 2.8 0 0 1 2.53-1.39c2.7 0 3.2 1.78 3.2 4.09v4.71H14.77V12.25c0-1 0-2.28-1.39-2.28s-1.6 1.09-1.6 2.21v4.25H9.12V7.84Z" transform="translate(-4.56 -3.57)"></path>
+                                                </svg> 
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                </a> 
+                            </li>
+                            <li class="social-list-item">
+                                <a href="/" rel="nocaes" aria-label="Visit Investopedia's Newsletter"> 
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-newsletter" href="#icon-newsletter">
+                                            <symbol id="icon-newsletter">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.16 82.2">
+                                                    <path d="M61.09 61.22L0 9.15V82.2h122.17V9.15L61.09 61.22z"></path>
+                                                    <path d="M115.5 0H6.67l54.42 46.39L115.5 0z"></path>
+                                                </svg> 
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                </a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="footer-links">
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">About Us</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">Terms of Service</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">Dictionary</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">Editorial Policy</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">Advertise</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">News</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">Privacy Policy</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">Contact Us</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-links-link" href="/">Careers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mntl-dotdash-universal-nav__logo" href="#mntl-dotdash-universal-nav__logo">
+                        <symbol id="mntl-dotdash-universal-nav__logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 2.8 290 69">
+                                <circle cx="39.6" cy="37.4" r="34.3" fill="#f44b34"></circle>
+                                <path fill="#fff" d="M50.4 17.9c-1.7-1.8-4-2.6-7-2.6-9.1-.1-12.4-.1-13.2-.1L27.3 22h8.1L30 28v21h-.1l.1.1v6.7l-3.6 4h18.5L53 51V25c0-.1.1-4.3-2.6-7.1zm-5.2 19.6-7.4 7.8V41l7.4-7.8v4.3zm-7.4-15.4h3c.9 0 2.1-.1 3.1.9s1.4 2.5 1.4 4.9v3.6l-7.4 7.8-.1-17.2zm-4.9 30.1 3.3-3.6 9-9.5v13.1c0 .1-12.3.1-12.3 0z"></path>
+                                <path fill="#009ad9" d="m99.645 22.637 6.505-6.506 4.172 4.172-6.505 6.506zM121 44l4.2 4.2 6.5-6.5-4.2-4.2zm-3.2-31.2c1.8-1.8 4.7-1.8 6.5 0 1.9 1.9 1.7 4.8 0 6.5l-3.3 3.3 4.2 4.2 3.3-3.3c2-2 4.9-1.6 6.5 0 2 2 1.6 4.9 0 6.5l-3.3 3.3 4.2 4.2 3.3-3.3c4.2-4.2 4-10.8 0-14.8-2.8-2.8-6.1-3.1-7.6-3.1.1-1.5-.3-4.8-3.1-7.6-3.9-3.9-10.6-4.2-14.8 0l-3.3 3.3 4.2 4.2 3.2-3.4zm-7.5 20.6 4.2 4.1L121 31l-4.2-4.1-6.5 6.5z"></path>
+                                <path fill="#6ebd44" d="m99.6 52.4 6.6 6.5 4.1-4.2-6.5-6.5zm36.3-14.9-4.2 4.2L135 45c1.6 1.6 2 4.5 0 6.5-1.6 1.6-4.5 2.1-6.5 0l-3.3-3.3-4.2 4.2 3.3 3.3c1.7 1.7 1.9 4.6 0 6.5-1.8 1.8-4.7 1.8-6.5 0l-3.3-3.3-4.2 4.2 3.3 3.3c4.2 4.2 10.9 3.9 14.8 0 2.8-2.8 3.1-6.1 3.1-7.6 1.5 0 4.8-.3 7.6-3.1 4-4 4.2-10.6 0-14.8l-3.2-3.4zm-25.6 4.2 6.5 6.5L121 44l-6.5-6.5zm14.9-14.8L121 31l6.5 6.5 4.2-4.1-6.5-6.5z"></path>
+                                <path fill="#f68f1e" d="m110.332 54.607 6.506-6.506 4.172 4.172-6.506 6.505zM102.8 62.2c-1.6 1.6-4.5 2-6.5 0-1.6-1.6-2.1-4.5 0-6.5l3.3-3.3-4.2-4.2-3.3 3.3c-1.7 1.7-4.6 1.9-6.5 0-1.8-1.8-1.8-4.7 0-6.5l3.3-3.3-4.2-4.2-3.3 3.3c-4.2 4.2-3.9 10.9 0 14.8 2.8 2.8 6.1 3.1 7.6 3.1 0 1.5.3 4.8 3.1 7.6 4 4 10.6 4.2 14.8 0l3.3-3.3-4.2-4.2-3.2 3.4zm3.4-24.7L99.6 44l4.2 4.2 6.5-6.5zM95.5 26.9 89 33.4l4.1 4.1 6.5-6.5z"></path>
+                                <path fill="#ec174c" d="m99.6 44-6.5-6.5-4.1 4.2 6.5 6.5zm-14-14c-1.8-1.8-1.8-4.7 0-6.5 1.9-1.9 4.8-1.7 6.5 0l3.3 3.3 4.2-4.2-3.3-3.3c-2-2-1.6-4.9 0-6.5 2-2 4.9-1.6 6.5 0l3.3 3.3 4.2-4.2-3.3-3.2c-4.2-4.2-10.8-4-14.8 0-2.8 2.8-3.1 6.1-3.1 7.6-1.5-.1-4.9.3-7.6 3.1-3.9 3.9-4.2 10.6 0 14.8l3.3 3.3 4.2-4.2-3.4-3.3zm24.73-9.682 4.172-4.172 6.505 6.505-4.172 4.172zM106.2 37.5l4.1-4.1-6.5-6.5-4.2 4.1 6.6 6.5z"></path>
+                                <path fill="#573357" d="m106.142 16.042 4.171-4.172 4.172 4.172-4.171 4.172z"></path>
+                                <path fill="#be272d" d="m84.81 37.543 4.172-4.172 4.172 4.172-4.172 4.172z"></path>
+                                <path fill="#008e4c" d="m127.497 37.555 4.171-4.172 4.172 4.172-4.171 4.172z"></path>
+                                <path fill="#7a773e" d="m106.172 58.866 4.172-4.172 4.172 4.172-4.172 4.172z"></path>
+                                <path fill="#443639" d="m116.856 26.74 4.172-4.172 4.172 4.172-4.172 4.172z"></path>
+                                <path fill="#803136" d="m95.455 48.169 4.172-4.172 4.172 4.172-4.172 4.172z"></path>
+                                <path fill="#593438" d="m95.446 26.753 4.172-4.172 4.172 4.173-4.172 4.171z"></path>
+                                <path fill="#443639" d="m106.155 37.456 4.172-4.172 4.172 4.171-4.172 4.172z"></path>
+                                <path fill="#2a6442" d="m116.871 48.153 4.172-4.172 4.172 4.172-4.172 4.172z"></path>
+                                <path d="M170.4 13.5c-2.5-2.2-5.7-3.3-9.6-3.3h-7.2v23.6h7.6c3.8 0 7-1.1 9.4-3.3s3.6-5 3.6-8.5-1.3-6.3-3.8-8.5zm.1 8.5c0 2.6-.9 4.7-2.6 6.2-1.7 1.6-4.1 2.3-7 2.3h-3.8V13.4h3.8c2.9 0 5.2.8 7 2.3 1.7 1.5 2.6 3.7 2.6 6.3zm14.6-6.3c-2.5 0-4.7.9-6.4 2.7s-2.6 4-2.6 6.6.9 4.8 2.6 6.6c1.7 1.8 3.9 2.7 6.4 2.7h.1v-.1c2.5 0 4.7-.9 6.4-2.7s2.6-4 2.6-6.6c0-2.5-.9-4.8-2.6-6.6-1.8-1.7-3.9-2.6-6.5-2.6zm4.1 13.7c-.5.6-1.1 1-1.8 1.3s-1.4.3-2.2.3c-1.7 0-3-.6-4.1-1.8-1.1-1.2-1.6-2.7-1.6-4.4 0-1.7.6-3.2 1.6-4.3 1.1-1.2 2.4-1.7 4.1-1.7 1.6 0 3 .6 4 1.7 1.1 1.2 1.6 2.6 1.6 4.3 0 1.9-.5 3.4-1.6 4.6zm16.9.8c-.5.6-1.3.9-2.3.9-1.6 0-2.4-.9-2.4-2.7v-9.2h5v-3h-5v-4.4h-3.3v4.4h-2.9l.1 3h2.9v9.3c0 1.9.5 3.3 1.4 4.3s2.2 1.5 3.9 1.5c1.8 0 3.2-.5 4.2-1.5l-1.6-2.6zm38.1-11.6c-1.5-2-3.5-3-6.1-3-2.5 0-4.5.9-6.1 2.7-1.6 1.8-2.4 4-2.4 6.6 0 2.7.8 4.9 2.5 6.6 1.7 1.8 3.7 2.7 6.1 2.7 2.6 0 4.6-1 6.1-3.1v2.6h3.4V16.1h-3.4v2.5h-.1zm-1.6 2c1.1 1.2 1.6 2.6 1.6 4.3s-.5 3.2-1.6 4.4c-.5.6-1.1 1-1.8 1.3s-1.4.4-2.2.4c-1.7 0-3-.6-4.1-1.8-1.1-1.2-1.6-2.7-1.6-4.4 0-1.7.6-3.2 1.6-4.3 1.1-1.2 2.4-1.7 4.1-1.7 1.6.1 2.9.6 4 1.8zm17.9 3.6c-.9-.3-1.9-.6-3-.9-1-.3-1.9-.6-2.5-1-.7-.4-1-1-1-1.6l.1-.1c0-.7.3-1.2.9-1.6.6-.4 1.4-.6 2.3-.6 2 0 3.4.7 4.5 2l2-2c-1.3-1.8-3.5-2.7-6.6-2.7-1.9 0-3.5.5-4.7 1.4-1.2 1-1.7 2.1-1.7 3.5 0 1.2.3 2.1 1 2.9s1.5 1.3 2.6 1.7c1.1.4 2 .7 2.9 1 1 .3 1.8.7 2.4 1.1.7.5 1 1 1 1.8s-.3 1.4-.9 1.8c-.6.5-1.4.7-2.5.7-2.3 0-4.1-.8-5.3-2.3l-2 2.2c1.5 1.9 3.9 2.9 7.1 2.9 2.2 0 3.9-.5 5.1-1.5s1.8-2.3 1.8-3.8c0-1.2-.3-2.2-1-3-.6-.9-1.5-1.4-2.5-1.9zm14.9-8.6c-2.3 0-4.1.8-5.2 2.5V8.4h-3.4v25.4h3.4l.1-10.3c0-1.4.4-2.6 1.2-3.4.8-.8 1.8-1.2 3.2-1.2 1.3 0 2.4.4 3.2 1.3.8.8 1.2 2 1.2 3.4v10.3h3.4V23c0-2.3-.6-4-1.9-5.4-1.4-1.4-3.1-2-5.2-2zm-52.2 3c-1.5-2-3.5-3-6.1-3-2.5 0-4.5.9-6.1 2.7-1.6 1.8-2.4 4-2.4 6.6 0 2.7.8 4.9 2.5 6.6 1.7 1.8 3.7 2.7 6.1 2.7 2.6 0 4.6-1 6.1-3.1v2.6h3.4V8.4h-3.4v10.2h-.1zm-1.6 2c1.1 1.2 1.6 2.6 1.6 4.3s-.5 3.2-1.6 4.4c-1.1 1.2-2.4 1.8-4 1.8-1.7 0-3-.6-4.1-1.8-1.1-1.2-1.6-2.7-1.6-4.4 0-1.7.6-3.2 1.6-4.3 1.1-1.2 2.4-1.7 4.1-1.7 1.6 0 2.9.5 4 1.7zm48.8 19.9h-3.6v19.1c0 2.4.7 4.1 2.1 5.1 1.2.9 3.1 1.4 5.6 1.4h.1v-3h-.1c-1.2 0-2.1-.2-2.7-.6-.9-.6-1.4-1.7-1.4-3.3V51h4.1v-3h-4.1v-7.5zm-96.2 7c-1.4 0-2.6.3-3.7 1-1 .6-1.7 1.5-2.3 2.6-1.2-2.4-3.2-3.6-6-3.6-2.2 0-4 .9-5.2 2.6V48h-3.5v18.2h3.5l.2-10.7c0-1.5.4-2.6 1.1-3.5.7-.9 1.8-1.3 3.1-1.3s2.3.4 3.1 1.3c.8.9 1.2 2 1.2 3.5v10.6h3.4V55.5c0-1.5.4-2.6 1.2-3.5s1.8-1.3 3.2-1.3c1.3 0 2.3.4 3.1 1.3.7.9 1.1 2 1.1 3.5v10.6h3.5V55c0-2.3-.6-4.1-1.9-5.5-1.3-1.3-3-2-5.1-2zm18.9 0c-2.5 0-4.7.9-6.4 2.8-1.7 1.9-2.6 4.1-2.6 6.8s.9 5 2.7 6.8c1.8 1.8 4.1 2.8 6.8 2.8h.1v-.1c1.4 0 2.7-.3 3.9-.7 1.2-.5 2.2-1.1 3-1.9l-1.8-2.4c-1.3 1.3-3 2-5 2-1.7 0-3.1-.5-4.2-1.6-1.1-1-1.8-2.4-2-4h14.3c.1-.3.1-.7.1-1.2 0-2.5-.9-4.7-2.6-6.5-1.6-1.8-3.8-2.8-6.3-2.8zm.1 3c1.4 0 2.6.5 3.6 1.3 1 .9 1.6 2.1 1.8 3.8h-10.8c.3-1.5.9-2.7 1.8-3.7 1-.9 2.2-1.4 3.6-1.4zm22.5-2.3c-.6-.5-1.6-.8-2.8-.8-1.9 0-3.4.9-4.5 2.6v-2H205v18.2h3.5l-.1-10.5c0-1.5.3-2.7.9-3.6.6-.9 1.5-1.3 2.6-1.3.9 0 1.7.2 2.3.7h.1l1.4-3.3zm9-.7c-2.5 0-4.7.9-6.4 2.8-1.7 1.9-2.6 4.1-2.6 6.8s.9 5 2.7 6.8c1.8 1.8 4.1 2.8 6.8 2.8h.1v-.1c1.4 0 2.7-.3 3.9-.7 1.2-.5 2.2-1.1 3-1.9l-1.8-2.4c-1.3 1.3-3 2-5 2-1.7 0-3.1-.5-4.2-1.6-1.1-1-1.8-2.4-2-4h14.3c.1-.3.1-.7.1-1.2 0-2.5-.9-4.7-2.6-6.5-1.6-1.8-3.8-2.8-6.3-2.8zm.1 3c1.4 0 2.6.5 3.6 1.3 1 .9 1.6 2.1 1.8 3.8h-10.8c.3-1.5.9-2.7 1.8-3.7.9-.9 2.1-1.4 3.6-1.4zm26.1 0c-1.5-2-3.6-3.1-6.3-3.1-2.5 0-4.6.9-6.3 2.7s-2.5 4.1-2.5 6.8.9 5 2.5 6.8c1.7 1.8 3.8 2.7 6.3 2.7 2.6 0 4.7-1.1 6.3-3.2v2.7h3.5V40.5h-3.5v10zm-1.7 2c1.1 1.2 1.6 2.7 1.6 4.5 0 1.7-.6 3.3-1.6 4.5-1.1 1.2-2.4 1.8-4.2 1.8-1.7 0-3.1-.6-4.2-1.8-1.1-1.2-1.7-2.7-1.7-4.5s.6-3.3 1.7-4.5c1.1-1.2 2.5-1.8 4.2-1.8 1.8.1 3.1.7 4.2 1.8zm43.5-3c-1.3-1.4-3-2.1-5.2-2.1-2.4 0-4.2.9-5.4 2.6v-9.6h-3.5v25.7h3.5l.1-10.5c0-1.5.4-2.6 1.2-3.5.8-.9 1.8-1.3 3.2-1.3 1.4 0 2.5.4 3.3 1.3.8.9 1.2 2 1.2 3.5v10.6h3.5V55c0-2.3-.6-4.1-1.9-5.5zM259.1 48h3.5v18.2h-3.5zm0-7.5h3.4v3.4h-3.4z"></path>
+                            </svg> 
+                        </symbol>
+                    </use>
+                </svg>
+                <div class="footer-nav-wrapper">
+                    <div class="footer-nav-text">
+                        Investopedia is part of the <br class="mobile"><strong>Dotdash Meredith</strong> publishing family. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
